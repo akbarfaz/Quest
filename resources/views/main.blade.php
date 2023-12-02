@@ -22,12 +22,12 @@
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                         data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                         aria-controls="panelsStayOpen-collapseOne">
-                        {{ $assessment['title'] }}
+                        {{ $assessment['school_name'] }}
                     </button>
                 </h2>
                 <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                     <div class="accordion-body">
-                        <strong>{{ $assessment['school_name'] }}</strong>
+                        <strong>{{ $assessment['title'] }}</strong>
                     </div>
                 </div>
             </div>

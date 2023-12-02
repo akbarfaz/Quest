@@ -22,9 +22,7 @@ class SchoolController extends Controller
         $client = new Client();
         $url = "https://api.escuelajs.co/api/v1/products?offset=0&limit=10";
 
-
-        $response = $client->request('GET', $url, [
-        ]);
+        $response = $client->request('GET', $url, []);
 
         $responseBody = json_decode($response->getBody());
         // dd($responseBody);
